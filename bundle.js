@@ -6,9 +6,9 @@
 /******/ 	function __webpack_require__(moduleId) {
 /******/
 /******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
+/******/ 		if(installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
-/******/
+/******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
@@ -12354,9 +12354,9 @@ function getIceObject(cb) {
     $.ajax({
         url: "https://service.xirsys.com/ice",
         data: {
-            ident: "vanpho",
-            secret: "2b1c2dfe-4374-11e7-bd72-5a790223a9ce",
-            domain: "vanpho93.github.io",
+            ident: "howtolove488",
+            secret: "c4b2694a-44ed-11e7-8924-4351dded8174",
+            domain: "howtolove488.github.io/stream30052017",
             application: "default",
             room: "default",
             secure: 1
@@ -13419,7 +13419,7 @@ const getIceObject = __webpack_require__(10);
 
 getIceObject(iceConfig => {
     const connectionObj = {
-        host: 'stream2905.herokuapp.com',
+        host: 'stream30052017.herokuapp.com',
         port: 443,
         secure: true,
         key: 'peerjs',
