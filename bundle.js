@@ -12354,9 +12354,9 @@ function getIceObject(cb) {
     $.ajax({
         url: "https://service.xirsys.com/ice",
         data: {
-            ident: "howtolove488",
+            ident: "howtolove",
             secret: "c4b2694a-44ed-11e7-8924-4351dded8174",
-            domain: "howtolove488.github.io/stream30052017",
+            domain: "https://howtolove488.github.io/stream30052017/",
             application: "default",
             room: "default",
             secure: 1
@@ -13419,7 +13419,7 @@ const getIceObject = __webpack_require__(10);
 
 getIceObject(iceConfig => {
     const connectionObj = {
-        host: 'stream30052017.herokuapp.com',
+        host: 'stream2905.herokuapp.com',
         port: 443,
         secure: true,
         key: 'peerjs',
